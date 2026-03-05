@@ -13,9 +13,15 @@ function Reg() {
     try {
       //const res = await axios.post("http://localhost:5173/reg", data);
       const res = await axios.post(
+<<<<<<< HEAD
         "https://react-backend-1-hx4f.onrender.com/reg",
         data,
       );
+=======
+       "https://react-backend-1-hx4f.onrender.com/reg",
+      data,
+       );
+>>>>>>> 1ea8c63ca63a68844c1856644a5453487e60eb6e
       console.log(res.data);
     } catch (error) {
       console.log(error);
