@@ -11,11 +11,11 @@ function Reg() {
   };
   const submit = async () => {
     try {
-      const res = await axios.post("http://localhost:5173/reg", data);
-      //const res = await axios.post(
-      // "https://demo-backend-1.onrender.com/reg",
-      //data,
-      // );
+      //const res = await axios.post("http://localhost:5173/reg", data);
+      const res = await axios.post(
+       "https://react-backend-1-hx4f.onrender.com/reg",
+      data,
+       );
       console.log(res.data);
     } catch (error) {
       console.log(error);
