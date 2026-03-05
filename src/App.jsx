@@ -7,8 +7,8 @@ function App() {
       <h1>Iam App</h1>
       <BrowserRouter>
         <Routes>
-          <Route path="/reg" element={<Reg/>}></Route>
-          <Route path="/h" element={<Home/>}></Route>
+          <Route path="/reg" element={<Reg />}></Route>
+          <Route path="/h" element={<Home />}></Route>
         </Routes>
       </BrowserRouter>
     </>
